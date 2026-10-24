@@ -15,11 +15,7 @@ sudo curl -fsSL \
   </code>
 <p>put this in a file at /etc/apt/source.list.d/linux-kernel7.3.0repo.list</p>
   <code>
-  Types: deb
-URIs: https://soniceggman419-ship-it.github.io/linux-kernel7.3.0repo/
-Suites: stable
-Components: main
-Signed-By: /etc/apt/keyrings/linux-kernel7.3.0repo.asc
+deb [signed-by=/etc/apt/keyrings/linux-kernel7.3.0repo.gpg] https://soniceggman419-ship-it.github.io/linux-kernel7.3.0repo stable main
 </code>
     
 
