@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this is not a pag</title>
+</head>
+<body>
+    <h1>plasehoader</h1>
+  <br>
+  <p>get the gpg key </p>
+  <code>
+sudo curl -fsSL soniceggman419-ship-it.github.io/linux-kernel7.3.0repo/public.key -o /etc/apt/keyrings/linux-kernel7.3.0repo.asc
+  </code>
+<p>put this in a file at /etc/apt/source.list.d/linux-kernel7.3.0repo.list</p>
+  <code>
+  Types: deb
+URIs: https://soniceggman419-ship-it.github.io/linux-kernel7.3.0repo/
+Suites: stable
+Components: main
+Signed-By: /etc/apt/keyrings/linux-kernel7.3.0repo.asc
+</code>
+    
+
+</body>
+</html>
