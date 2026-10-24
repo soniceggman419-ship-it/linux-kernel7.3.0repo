@@ -10,7 +10,8 @@
   <br>
   <p>get the gpg key </p>
   <code>
-sudo curl -fsSL soniceggman419-ship-it.github.io/linux-kernel7.3.0repo/public.key -o /etc/apt/keyrings/linux-kernel7.3.0repo.asc
+sudo curl -fsSL \
+  https://soniceggman419-ship-it.github.io/linux-kernel7.3.0repo/linux-kernel7.3.0repo.gpg -o /etc/apt/keyrings/linux-kernel7.3.0repo.gpg
   </code>
 <p>put this in a file at /etc/apt/source.list.d/linux-kernel7.3.0repo.list</p>
   <code>
