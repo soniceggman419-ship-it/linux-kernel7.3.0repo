@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sat, 24 Oct 2026 07:33:39 -0700
+Source: linux-upstream
+Binary: linux-headers-7.3.0 linux-image-7.3.0 linux-libc-dev
+Architecture: amd64
+Version: 7.3.0-10
+Distribution: unstable
+Urgency: low
+Maintainer: root <root@LAPTOP-GAA1R3VC.localdomain>
+Changed-By: root <root@LAPTOP-GAA1R3VC.localdomain>
+Description:
+ linux-headers-7.3.0 - Linux kernel headers for 7.3.0 on amd64
+ linux-image-7.3.0 - Linux kernel, version 7.3.0
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-upstream (7.3.0-10) unstable; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ c05f4aeac175fb1094866e4f181c593a30e3783e 10033560 linux-headers-7.3.0_7.3.0-10_amd64.deb
+ 883896591ab38d3cf0c74c6559c96cb6b367d7ac 31261048 linux-image-7.3.0_7.3.0-10_amd64.deb
+ 260463f8e68e44c735c119c9a04463c8a303bd15 1519976 linux-libc-dev_7.3.0-10_amd64.deb
+ 64cb9e44cdfde0d6e6c8c03bce2ff9ed3d30c9ae 6816 linux-upstream_7.3.0-10_amd64.buildinfo
+Checksums-Sha256:
+ 729e949568eff1beb7bf4a62f193710576e70179aafdc1242f6f08814feceb29 10033560 linux-headers-7.3.0_7.3.0-10_amd64.deb
+ b1cd7d19c85fd36f85ed285f532fdddff7b192bfd7ad745f54bb432ac14c6a0b 31261048 linux-image-7.3.0_7.3.0-10_amd64.deb
+ 94cbf8bff95ce133fd11f6a7aaf1dc73fb13506fb5606aa0a4b4095534db4459 1519976 linux-libc-dev_7.3.0-10_amd64.deb
+ 2724977c7b98c038237d7e7bffee2595abbd6d8d30b3b8c45d1210a6dd0ae293 6816 linux-upstream_7.3.0-10_amd64.buildinfo
+Files:
+ 71b440d280d90a725648b9c0b8c50460 10033560 kernel optional linux-headers-7.3.0_7.3.0-10_amd64.deb
+ da83f657b7f6d7dc2b8f575e89543a74 31261048 kernel optional linux-image-7.3.0_7.3.0-10_amd64.deb
+ 2d34322072642d58e1b4b1fd51501184 1519976 devel optional linux-libc-dev_7.3.0-10_amd64.deb
+ dd4957212008ce3a29258f77ddab1606 6816 kernel optional linux-upstream_7.3.0-10_amd64.buildinfo
