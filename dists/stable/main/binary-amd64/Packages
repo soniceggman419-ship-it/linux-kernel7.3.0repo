@@ -1,16 +1,17 @@
 Package: linux-headers-7.3.0
-Source: linux-upstream
-Version: 7.3.0-10
 Architecture: amd64
-Maintainer: root <root@LAPTOP-GAA1R3VC.localdomain>
-Installed-Size: 59078
-Filename: pool/main/linux-headers-7.3.0_7.3.0-10_amd64.deb
-Size: 10033560
-MD5sum: 71b440d280d90a725648b9c0b8c50460
-SHA1: c05f4aeac175fb1094866e4f181c593a30e3783e
-SHA256: 729e949568eff1beb7bf4a62f193710576e70179aafdc1242f6f08814feceb29
-Section: kernel
+Version: 7.3.0-3
 Priority: optional
+Section: kernel
+Source: linux-upstream
+Maintainer: elijah <elijah@LAPTOP-GAA1R3VC.localdomain>
+Installed-Size: 59109
+Filename: pool/main/linux-headers-7.3.0_7.3.0-3_amd64.deb
+Size: 10035624
+MD5sum: 9d47a12340423ede6a158191f5dad08f
+SHA1: a49d360d4eeb7db713bc482e7dd20d103d942782
+SHA256: 6378d9dbf8178cc2e00eca42d6e82341089e7970b2e89119361956b05f516837
+SHA512: a1b513b7d64fa5d0133ae660b8166df6d3bd2d7c8e85cf710b2a4413083f1ead90f7e3fc1fb77758247379978288e66e5a347bf18a8610b4e3d58ec9262482c8
 Homepage: https://www.kernel.org/
 Description: Linux kernel headers for 7.3.0 on amd64
  This package provides kernel header files for 7.3.0 on amd64
@@ -18,38 +19,40 @@ Description: Linux kernel headers for 7.3.0 on amd64
  This is useful for people who need to build external modules
 
 Package: linux-image-7.3.0
-Source: linux-upstream
-Version: 7.3.0-10
 Architecture: amd64
-Maintainer: root <root@LAPTOP-GAA1R3VC.localdomain>
-Installed-Size: 116940
-Filename: pool/main/linux-image-7.3.0_7.3.0-10_amd64.deb
-Size: 31261048
-MD5sum: da83f657b7f6d7dc2b8f575e89543a74
-SHA1: 883896591ab38d3cf0c74c6559c96cb6b367d7ac
-SHA256: b1cd7d19c85fd36f85ed285f532fdddff7b192bfd7ad745f54bb432ac14c6a0b
-Section: kernel
+Version: 7.3.0-3
 Priority: optional
+Section: kernel
+Source: linux-upstream
+Maintainer: elijah <elijah@LAPTOP-GAA1R3VC.localdomain>
+Installed-Size: 119318
+Filename: pool/main/linux-image-7.3.0_7.3.0-3_amd64.deb
+Size: 31652660
+MD5sum: e7a11d28e30507ffdec9ceb4a200e08a
+SHA1: 6cb57b33f0510bb381e421c6dad01aecd0991e03
+SHA256: 33fa5cf48ed5503c19797ed02dd4c8a927a5404ef0de5e977050fc3fff1904d8
+SHA512: 22fee76267e4ed6ef014d830d12d5bfdb92f7ed7e98d6f01262924b4dcc0cfadb69dcb42c73b109d9c7c5a5df47aacdcf5ad3ad09cdcf0cdc77b7060e0fa81cb
 Homepage: https://www.kernel.org/
 Description: Linux kernel, version 7.3.0
  This package contains the Linux kernel, modules and corresponding other
  files, version: 7.3.0.
 
 Package: linux-libc-dev
-Source: linux-upstream
-Version: 7.3.0-10
 Architecture: amd64
-Maintainer: root <root@LAPTOP-GAA1R3VC.localdomain>
+Version: 7.3.0-3
+Multi-Arch: same
+Priority: optional
+Section: devel
+Source: linux-upstream
+Maintainer: elijah <elijah@LAPTOP-GAA1R3VC.localdomain>
 Installed-Size: 7837
 Provides: linux-kernel-headers
-Filename: pool/main/linux-libc-dev_7.3.0-10_amd64.deb
-Size: 1519976
-MD5sum: 2d34322072642d58e1b4b1fd51501184
-SHA1: 260463f8e68e44c735c119c9a04463c8a303bd15
-SHA256: 94cbf8bff95ce133fd11f6a7aaf1dc73fb13506fb5606aa0a4b4095534db4459
-Section: devel
-Priority: optional
-Multi-Arch: same
+Filename: pool/main/linux-libc-dev_7.3.0-3_amd64.deb
+Size: 1519852
+MD5sum: e6a6e035b6c2aa51f0c1d5835571d83b
+SHA1: 46a2203cbdf77d6d35c5e43a53feae4d8e029bce
+SHA256: 56ea0e176496e16b27962cec46c55d650cb08b99a4c772152e6417c24c35a233
+SHA512: 198f9663fcdd07cda90039f1045d1701fd26cad071c8391ee97d33ec3109e197983c4e6d04e943efe6be11ef27ab657035ee968b5a9726ab02767b46d39e61cd
 Homepage: https://www.kernel.org/
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers

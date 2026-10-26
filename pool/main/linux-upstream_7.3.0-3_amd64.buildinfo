@@ -2,22 +2,22 @@ Format: 1.0
 Source: linux-upstream
 Binary: linux-headers-7.3.0 linux-image-7.3.0 linux-libc-dev
 Architecture: amd64
-Version: 7.3.0-10
+Version: 7.3.0-3
 Checksums-Md5:
- 71b440d280d90a725648b9c0b8c50460 10033560 linux-headers-7.3.0_7.3.0-10_amd64.deb
- da83f657b7f6d7dc2b8f575e89543a74 31261048 linux-image-7.3.0_7.3.0-10_amd64.deb
- 2d34322072642d58e1b4b1fd51501184 1519976 linux-libc-dev_7.3.0-10_amd64.deb
+ 9d47a12340423ede6a158191f5dad08f 10035624 linux-headers-7.3.0_7.3.0-3_amd64.deb
+ e7a11d28e30507ffdec9ceb4a200e08a 31652660 linux-image-7.3.0_7.3.0-3_amd64.deb
+ e6a6e035b6c2aa51f0c1d5835571d83b 1519852 linux-libc-dev_7.3.0-3_amd64.deb
 Checksums-Sha1:
- c05f4aeac175fb1094866e4f181c593a30e3783e 10033560 linux-headers-7.3.0_7.3.0-10_amd64.deb
- 883896591ab38d3cf0c74c6559c96cb6b367d7ac 31261048 linux-image-7.3.0_7.3.0-10_amd64.deb
- 260463f8e68e44c735c119c9a04463c8a303bd15 1519976 linux-libc-dev_7.3.0-10_amd64.deb
+ a49d360d4eeb7db713bc482e7dd20d103d942782 10035624 linux-headers-7.3.0_7.3.0-3_amd64.deb
+ 6cb57b33f0510bb381e421c6dad01aecd0991e03 31652660 linux-image-7.3.0_7.3.0-3_amd64.deb
+ 46a2203cbdf77d6d35c5e43a53feae4d8e029bce 1519852 linux-libc-dev_7.3.0-3_amd64.deb
 Checksums-Sha256:
- 729e949568eff1beb7bf4a62f193710576e70179aafdc1242f6f08814feceb29 10033560 linux-headers-7.3.0_7.3.0-10_amd64.deb
- b1cd7d19c85fd36f85ed285f532fdddff7b192bfd7ad745f54bb432ac14c6a0b 31261048 linux-image-7.3.0_7.3.0-10_amd64.deb
- 94cbf8bff95ce133fd11f6a7aaf1dc73fb13506fb5606aa0a4b4095534db4459 1519976 linux-libc-dev_7.3.0-10_amd64.deb
+ 6378d9dbf8178cc2e00eca42d6e82341089e7970b2e89119361956b05f516837 10035624 linux-headers-7.3.0_7.3.0-3_amd64.deb
+ 33fa5cf48ed5503c19797ed02dd4c8a927a5404ef0de5e977050fc3fff1904d8 31652660 linux-image-7.3.0_7.3.0-3_amd64.deb
+ 56ea0e176496e16b27962cec46c55d650cb08b99a4c772152e6417c24c35a233 1519852 linux-libc-dev_7.3.0-3_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Sat, 24 Oct 2026 07:35:43 -0700
+Build-Date: Sun, 25 Oct 2026 16:47:57 -0700
 Installed-Build-Depends:
  autoconf (= 2.72-3.1),
  automake (= 1:1.17-4),
@@ -219,6 +219,6 @@ Environment:
  LD="ld"
  LEX="flex"
  MAKE="make"
- MAKEFLAGS="rR --no-print-directory"
- SOURCE_DATE_EPOCH="1792852419"
+ MAKEFLAGS="rR -j8 --jobserver-auth=fifo:/tmp/GMfifo189450 --no-print-directory"
+ SOURCE_DATE_EPOCH="1792972005"
  YACC="bison"
